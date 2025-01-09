@@ -4,5 +4,3 @@ This is a simple project that illustrates the solar system. This code was inspir
 
 ## YouTube Course
 [Learn Three.js by Building 5 Projects](https://www.youtube.com/watch?v=UMqNHi1GDAE&t=372s)
-
- 
