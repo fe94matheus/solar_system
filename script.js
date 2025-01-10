@@ -385,7 +385,7 @@ solarSystem.addCelestialBody({
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.MERCURY,
-    textureMap: './celestial_maps/mercurymap.jpg',
+    textureMap: 'celestial_maps/mercurymap.jpg',
 });
 
 solarSystem.addCelestialBody({
