@@ -1,7 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { getFresnelMat } from '../solar_system/getFresnelMat.js';
-import getStarfield from '../solar_system/getStarfield.js';
+import getStarfield from './getStarfield.js';
 
 // Astronomical constants (in astronomical units - AU)
 const AU = 149597870.7; // 1 AU in kilometers
