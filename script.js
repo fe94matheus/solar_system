@@ -379,48 +379,48 @@ const solarSystem = new SolarSystemScene();
 // Add sun
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.SUN,
-    textureMap: './celestial_maps/2k_sun.jpg',
+    textureMap: '/solar-system/celestial_maps/2k_sun.jpg',
     isSun: true
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.MERCURY,
-    textureMap: './celestial_maps/mercurymap.jpg',
+    textureMap: '/solar-system/celestial_maps/mercurymap.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.VENUS,
-    textureMap: './celestial_maps/venusmap.jpg',
+    textureMap: '/solar-system/celestial_maps/venusmap.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.EARTH,
-    textureMap: './celestial_maps/earthmap1k.jpg',
+    textureMap: '/solar-system/celestial_maps/earthmap1k.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.MARS,
-    textureMap: './celestial_maps/mars_1k_color.jpg',
+    textureMap: '/solar-system/celestial_maps/mars_1k_color.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.JUPITER,
-    textureMap: './celestial_maps/jupiter2_1k.jpg',
+    textureMap: '/solar-system/celestial_maps/jupiter2_1k.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.SATURN,
-    textureMap: './celestial_maps/2k_saturn.jpg',
+    textureMap: '/solar-system/celestial_maps/2k_saturn.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.URANUS,
-    textureMap: './celestial_maps/2k_uranus.jpg',
+    textureMap: '/solar-system/celestial_maps/2k_uranus.jpg',
 });
 
 solarSystem.addCelestialBody({
     ...PLANETARY_DATA.NEPTUNE,
-    textureMap: '/celestial_maps/neptunemap.jpg',
+    textureMap: '/solar-system/celestial_maps/neptunemap.jpg',
 });
 
 solarSystem.animate();
